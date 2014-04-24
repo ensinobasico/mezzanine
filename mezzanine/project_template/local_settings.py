@@ -1,4 +1,3 @@
-
 DEBUG = True
 
 # Make these unique, and don't share it with anybody.
@@ -21,3 +20,4 @@ DATABASES = {
         "PORT": "",
     }
 }
+
