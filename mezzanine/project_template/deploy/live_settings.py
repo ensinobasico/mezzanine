@@ -35,18 +35,4 @@ CACHES = {
 }
 
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
-FABRIC = {
-    "SSH_USER": "root", # SSH username for host deploying to
-    "HOSTS": ['188.226.188.21', ], # List of hosts to deploy to (eg, first host)
-    "DOMAINS": ['yeslow.com'], # Domains for public site
-    "REPO_URL": "https://github.com/ensinobasico/mezzanine/edit/master/mezzanine/project_template", # Project's repo URL
-    "VIRTUALENV_HOME": "/www/home", # Absolute remote path for virtualenvs
-    "PROJECT_NAME": "", # Unique identifier for project
-    "REQUIREMENTS_PATH": "requirements.txt", # Project's pip requirements
-    "GUNICORN_PORT": 8000, # Port gunicorn will listen on
-    "LOCALE": "en_US.UTF-8", # Should end with ".UTF-8"
-    "DB_PASS": "admin", # Live database password
-    "ADMIN_PASS": "admin", # Live admin user password
-    "SECRET_KEY": SECRET_KEY,
-    "NEVERCACHE_KEY": NEVERCACHE_KEY,
-}
+
