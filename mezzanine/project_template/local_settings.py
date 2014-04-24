@@ -22,8 +22,8 @@ DATABASES = {
 }
 
 FABRIC = {
-    "SSH_USER": "", # SSH username for host deploying to
-    "HOSTS": ['188.226.188.21'], # List of hosts to deploy to (eg, first host)
+    "SSH_USER": "root", # SSH username for host deploying to
+    "HOSTS": ['188.226.188.21', ], # List of hosts to deploy to (eg, first host)
     "DOMAINS": ['yeslow.com'], # Domains for public site
     "REPO_URL": "https://github.com/ensinobasico/mezzanine/edit/master/mezzanine/project_template", # Project's repo URL
     "VIRTUALENV_HOME": "/www/home", # Absolute remote path for virtualenvs
